@@ -1,0 +1,8 @@
+<div class="container">
+    <h1>Who will be the CM of AP in 2024.</h1>
+<h6>Jagan:{{jagan}}</h6>
+<h6>cbn:{{cbn}}</h6>
+<h6>pk:{{pk}}</h6>
+
+<app-child *ngFor="let name of people " [name]=name (cmpoll)="opinion($event)"></app-child>
+</div>
